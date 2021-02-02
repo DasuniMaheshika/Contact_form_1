@@ -2,7 +2,7 @@ body{
 position: relative;
 display: flex;
 justify-content: center;
-background: url(./img.jpg) no-repeat;
+background: url(./background.jpg) no-repeat;
 background-position: top center;
 background-size: cover;
 }
