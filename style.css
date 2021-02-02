@@ -1,0 +1,75 @@
+body{
+position: relative;
+display: flex;
+justify-content: center;
+background: url(./img.jpg) no-repeat;
+background-position: top center;
+background-size: cover;
+}
+
+h1{
+text-align:center;
+font-family:Calibri;
+color:#ffff;
+}
+                    
+input[type="text"],input[type="email"]{
+width:350px;                      /* box width */
+padding:12px 20px ;
+margin:8px 0px;                   /* 8px-space around box, 0px-left & right side has no space*/
+border:1px solid #333333;
+border-radius:4px;                /* round the box corner */
+display:inline-block;
+box-sizing:border-box;             /* same width in box*/
+}
+                    
+input[type=submit]{
+width:350px;
+padding:12px 20px ;
+font-size:25px;
+border-radius:4px; 
+background-color:#333333;
+color:white;
+border:none;
+cursor: pointer;                 /* in box,curser will be a hand */
+}
+                    
+input[type=submit]:hover{
+background-color:#000000;
+}
+                    
+div{
+background-color: #666666;
+width:350px;
+padding:20px;
+border-radius:6px;
+}
+                    
+label{
+font-family:Calibri;
+font-size:20px;
+font-weight:bold;
+color:#ffff;
+}
+                    
+.c-text{
+display: block;
+padding: 20px 40px;
+width:350px;                      /* box width */
+padding:12px 20px ;
+margin:8px 0px;                   /* 8px-space around box, 0px-left & right side has no space*/
+border:1px solid #333333;
+border-radius:4px;                /* round the box corner */
+display:inline-block;
+box-sizing:border-box;
+font-family:Calibri;
+}
+
+.c-text:focus{
+padding: 15px 30px;
+}
+
+textarea{
+resize: none;
+height: 120px;
+}
