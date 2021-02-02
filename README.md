@@ -8,4 +8,4 @@
 
 ## The form
 <br><br>
-<img src="img/form.jpg">
+<img src="img/form.PNG" width="500">
